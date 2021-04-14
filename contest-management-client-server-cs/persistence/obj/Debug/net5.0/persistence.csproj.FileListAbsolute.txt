@@ -1,0 +1,16 @@
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\persistence.dll.config
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\persistence.deps.json
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\persistence.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\ref\persistence.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\persistence.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\bin\Debug\net5.0\model.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.csprojAssemblyReference.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.AssemblyInfoInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.AssemblyInfo.cs
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.csproj.CoreCompileInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.csproj.CopyComplete
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\ref\persistence.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\persistence\obj\Debug\net5.0\persistence.pdb

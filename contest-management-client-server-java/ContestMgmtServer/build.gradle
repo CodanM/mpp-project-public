@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':ContestMgmtModel')
+    compile project(':ContestMgmtPersistence')
+    compile project(':ContestMgmtServices')
+    compile project(':ContestMgmtNetworking')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+mainClassName='contestmgmt.server.StartRpcServer'

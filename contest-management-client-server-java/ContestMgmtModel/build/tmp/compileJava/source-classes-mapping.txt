@@ -1,0 +1,12 @@
+contestmgmt/model/Competition.java
+ contestmgmt.model.Competition
+contestmgmt/model/Participant.java
+ contestmgmt.model.Participant
+contestmgmt/model/Tuple.java
+ contestmgmt.model.Tuple
+contestmgmt/model/Organiser.java
+ contestmgmt.model.Organiser
+contestmgmt/model/Registration.java
+ contestmgmt.model.Registration
+contestmgmt/model/Entity.java
+ contestmgmt.model.Entity

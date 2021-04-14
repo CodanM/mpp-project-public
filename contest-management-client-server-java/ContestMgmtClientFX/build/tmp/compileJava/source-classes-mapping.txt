@@ -1,0 +1,13 @@
+contestmgmt/client/controller/RegistrationController.java
+ contestmgmt.client.controller.RegistrationController
+contestmgmt/client/Utils.java
+ contestmgmt.client.Utils
+contestmgmt/client/controller/MessageAlert.java
+ contestmgmt.client.controller.MessageAlert
+contestmgmt/client/controller/MainController.java
+ contestmgmt.client.controller.MainController
+ contestmgmt.client.controller.MainController$1
+contestmgmt/client/controller/LoginController.java
+ contestmgmt.client.controller.LoginController
+contestmgmt/client/StartRpcClientFX.java
+ contestmgmt.client.StartRpcClientFX

@@ -1,0 +1,12 @@
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\bin\Debug\net5.0\model.deps.json
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\bin\Debug\net5.0\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\bin\Debug\net5.0\ref\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\bin\Debug\net5.0\model.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.csprojAssemblyReference.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.AssemblyInfoInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.AssemblyInfo.cs
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.csproj.CoreCompileInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\ref\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\model\obj\Debug\net5.0\model.pdb

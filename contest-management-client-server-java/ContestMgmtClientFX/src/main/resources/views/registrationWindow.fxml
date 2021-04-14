@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contestmgmt.client.controller.RegistrationController">
+   <children>
+      <CheckBox fx:id="existingCheckBox" mnemonicParsing="false" onAction="#handleExists" text="Existing participant" />
+      <Label text="First Name">
+         <VBox.margin>
+            <Insets top="16.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="firstNameTextField" onKeyTyped="#nameChanged">
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin>
+      </TextField>
+      <Label text="Last Name">
+         <VBox.margin>
+            <Insets top="16.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="lastNameTextField" onKeyTyped="#nameChanged">
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin>
+      </TextField>
+      <ComboBox fx:id="idComboBox" onMouseClicked="#handleSearchIds" prefHeight="25.0" prefWidth="68.0" visible="false">
+         <VBox.margin>
+            <Insets top="16.0" />
+         </VBox.margin>
+      </ComboBox>
+      <Label fx:id="ageLabel" text="Age">
+         <VBox.margin>
+            <Insets top="16.0" />
+         </VBox.margin>
+      </Label>
+      <Spinner fx:id="ageSpinner" editable="true" max="15" min="9" prefHeight="25.0" prefWidth="66.0">
+         <VBox.margin>
+            <Insets bottom="16.0" />
+         </VBox.margin></Spinner>
+      <Label text="Competition Type">
+         <VBox.margin>
+            <Insets top="16.0" />
+         </VBox.margin>
+      </Label>
+      <ComboBox fx:id="competitionTypesComboBox" onAction="#handleCompetitionTypeSelected" prefWidth="150.0" />
+      <Label text="Age Category">
+         <VBox.margin>
+            <Insets top="16.0" />
+         </VBox.margin></Label>
+      <ComboBox fx:id="ageCategoriesComboBox" prefWidth="150.0" />
+      <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleAdd" text="Add">
+         <VBox.margin>
+            <Insets top="32.0" />
+         </VBox.margin></Button>
+   </children>
+</VBox>

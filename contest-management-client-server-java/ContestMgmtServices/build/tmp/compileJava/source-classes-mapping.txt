@@ -1,0 +1,6 @@
+contestmgmt/services/ContestManagementException.java
+ contestmgmt.services.ContestManagementException
+contestmgmt/services/IContestManagementObserver.java
+ contestmgmt.services.IContestManagementObserver
+contestmgmt/services/IContestManagementServices.java
+ contestmgmt.services.IContestManagementServices

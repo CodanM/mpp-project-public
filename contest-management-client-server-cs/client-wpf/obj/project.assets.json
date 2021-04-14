@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/model.dll": {}
+        }
+      },
+      "networking/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/networking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/networking.dll": {}
+        }
+      },
+      "services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "model/1.0.0": {
+      "type": "project",
+      "path": "../model/model.csproj",
+      "msbuildProject": "../model/model.csproj"
+    },
+    "networking/1.0.0": {
+      "type": "project",
+      "path": "../networking/networking.csproj",
+      "msbuildProject": "../networking/networking.csproj"
+    },
+    "services/1.0.0": {
+      "type": "project",
+      "path": "../services/services.csproj",
+      "msbuildProject": "../services/services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "networking >= 1.0.0",
+      "services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\danie\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\client-wpf\\client-wpf.csproj",
+      "projectName": "client-wpf",
+      "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\client-wpf\\client-wpf.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\client-wpf\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\networking\\networking.csproj": {
+              "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\networking\\networking.csproj"
+            },
+            "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\services\\services.csproj": {
+              "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\services\\services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

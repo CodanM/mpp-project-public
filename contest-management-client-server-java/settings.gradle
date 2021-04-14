@@ -1,0 +1,8 @@
+rootProject.name = 'contest-management-client-server-java'
+include 'ContestMgmtModel'
+include 'ContestMgmtServices'
+include 'ContestMgmtNetworking'
+include 'ContestMgmtServer'
+include 'ContestMgmtPersistence'
+include 'ContestMgmtClientFX'
+

@@ -1,0 +1,17 @@
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\networking.deps.json
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\networking.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\ref\networking.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\networking.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\services.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\bin\Debug\net5.0\model.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.csprojAssemblyReference.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.AssemblyInfoInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.AssemblyInfo.cs
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.csproj.CoreCompileInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.csproj.CopyComplete
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\ref\networking.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\obj\Debug\net5.0\networking.pdb

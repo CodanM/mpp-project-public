@@ -1,0 +1,15 @@
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net5.0\services.deps.json
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net5.0\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net5.0\ref\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net5.0\services.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net5.0\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net5.0\model.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.csprojAssemblyReference.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.AssemblyInfoInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.AssemblyInfo.cs
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.csproj.CoreCompileInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.csproj.CopyComplete
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\ref\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net5.0\services.pdb

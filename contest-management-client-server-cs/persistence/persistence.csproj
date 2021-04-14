@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+        <HintPath>..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\System.Configuration.ConfigurationManager.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0-preview.2.21154.6" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.113.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\model\model.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net5.0\persistence.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net5.0\persistence.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net5.0\persistence.dll" />
+      <Content Include="obj\Debug\net5.0\persistence.pdb" />
+    </ItemGroup>
+
+</Project>

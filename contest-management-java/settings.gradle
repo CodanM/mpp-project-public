@@ -1,0 +1,4 @@
+rootProject.name = 'contest-management-java'
+include 'ContestMgmtModel'
+include 'ContestMgmtOffline'
+

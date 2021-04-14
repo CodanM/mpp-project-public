@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contestmgmt.client.controller.LoginController">
+   <children>
+      <Label text="Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" prefHeight="25.0" prefWidth="365.0">
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin>
+      </TextField>
+      <Label text="Password">
+         <padding>
+            <Insets top="16.0" />
+         </padding>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passwordField">
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin>
+      </PasswordField>
+      <Button fx:id="loginButton" mnemonicParsing="false" onAction="#handleLogin" prefHeight="35.0" prefWidth="80.0" text="Login">
+         <VBox.margin>
+            <Insets top="32.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

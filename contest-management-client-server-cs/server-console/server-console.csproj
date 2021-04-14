@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>server_console</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\networking\networking.csproj" />
+      <ProjectReference Include="..\persistence\persistence.csproj" />
+      <ProjectReference Include="..\services\services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net5.0\apphost.exe" />
+      <Content Include="obj\Debug\net5.0\server-console.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net5.0\server-console.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net5.0\server-console.csprojAssemblyReference.cache" />
+      <Content Include="obj\Debug\net5.0\server-console.dll" />
+      <Content Include="obj\Debug\net5.0\server-console.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net5.0\server-console.pdb" />
+    </ItemGroup>
+
+</Project>
