@@ -1,0 +1,8 @@
+﻿<Application x:Class="client_wpf_remoting.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:client_wpf_remoting">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

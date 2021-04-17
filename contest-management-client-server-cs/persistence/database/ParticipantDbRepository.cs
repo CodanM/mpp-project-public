@@ -79,7 +79,8 @@ namespace persistence.database
             using var cmd = conn.CreateCommand();
             cmd.CommandText =
                 @"insert into Participants (first_name, last_name, age) VALUES
-                (@first_name, @last_name, @age)";
+                (@first_name, @last_name, @age);
+                select last_insert_rowid();";
             cmd.AddParameterWithValue("@first_name", entity.FirstName);
             cmd.AddParameterWithValue("@last_name", entity.LastName);
             cmd.AddParameterWithValue("@age", entity.Age);

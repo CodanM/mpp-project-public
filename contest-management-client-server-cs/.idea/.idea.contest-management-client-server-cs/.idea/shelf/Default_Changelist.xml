@@ -1,0 +1,64 @@
+<changelist name="Default_Changelist" date="1618658115672" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/shelved.patch" />
+  <option name="DESCRIPTION" value="Default Changelist" />
+  <binary>
+    <option name="BEFORE_PATH" value="../data/contest-management-db" />
+    <option name="AFTER_PATH" value="../data/contest-management-db" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/contest-management-db" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/bin/Debug/net5.0/networking.dll" />
+    <option name="AFTER_PATH" value="server-console/bin/Debug/net5.0/networking.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/networking.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/bin/Debug/net5.0/networking.pdb" />
+    <option name="AFTER_PATH" value="server-console/bin/Debug/net5.0/networking.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/networking.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/bin/Debug/net5.0/persistence.dll" />
+    <option name="AFTER_PATH" value="server-console/bin/Debug/net5.0/persistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/persistence.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/bin/Debug/net5.0/persistence.pdb" />
+    <option name="AFTER_PATH" value="server-console/bin/Debug/net5.0/persistence.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/persistence.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/obj/Debug/net472/server-console.assets.cache" />
+    <option name="AFTER_PATH" value="server-console/obj/Debug/net472/server-console.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/server-console.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/obj/Debug/net5.0/server-console.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="server-console/obj/Debug/net5.0/server-console.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/server-console.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/bin/Debug/net5.0/server-console.dll" />
+    <option name="AFTER_PATH" value="server-console/bin/Debug/net5.0/server-console.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/server-console.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/obj/Debug/net5.0/server-console.dll" />
+    <option name="AFTER_PATH" value="server-console/obj/Debug/net5.0/server-console.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/server-console1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/bin/Debug/net5.0/server-console.pdb" />
+    <option name="AFTER_PATH" value="server-console/bin/Debug/net5.0/server-console.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/server-console.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="server-console/obj/Debug/net5.0/server-console.pdb" />
+    <option name="AFTER_PATH" value="server-console/obj/Debug/net5.0/server-console.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/server-console1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="services/obj/Debug/net5.0/services.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="services/obj/Debug/net5.0/services.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/shelf/Default_Changelist/services.csprojAssemblyReference.cache" />
+  </binary>
+</changelist>

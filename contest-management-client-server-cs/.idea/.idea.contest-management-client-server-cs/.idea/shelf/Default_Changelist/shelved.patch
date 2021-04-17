@@ -1,0 +1,36 @@
+Index: services/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16186107562650227
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/services/obj/rider.project.restore.info b/services/obj/rider.project.restore.info
+--- a/services/obj/rider.project.restore.info	(revision c9d896f700c880a5e614639b57f86a09bbf9aa89)
++++ b/services/obj/rider.project.restore.info	(date 1618657565222)
+@@ -1,1 +1,5 @@
+-16186107562650227
+\ No newline at end of file
++<<<<<<< HEAD
++﻿16186107562650227
++=======
++﻿16184723663645087
++>>>>>>> 91bf250 (finished c# client-server)
+Index: server-console/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16186107563120328
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/server-console/obj/rider.project.restore.info b/server-console/obj/rider.project.restore.info
+--- a/server-console/obj/rider.project.restore.info	(revision c9d896f700c880a5e614639b57f86a09bbf9aa89)
++++ b/server-console/obj/rider.project.restore.info	(date 1618657565238)
+@@ -1,1 +1,5 @@
+-16186107563120328
+\ No newline at end of file
++<<<<<<< HEAD
++﻿16186107563120328
++=======
++﻿16186084281327675
++>>>>>>> 91bf250 (finished c# client-server)

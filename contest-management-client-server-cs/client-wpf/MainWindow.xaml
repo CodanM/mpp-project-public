@@ -30,7 +30,7 @@
             </DataGrid.Columns>
         </DataGrid>
         <Label Content="Participants" HorizontalAlignment="Left" Margin="363,39,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="AddRegistrationButton" Content="Add Registration" HorizontalAlignment="Left" Margin="549,10,0,0" Height="24" VerticalAlignment="Top"/>
+        <Button x:Name="AddRegistrationButton" Content="Add Registration" HorizontalAlignment="Left" Margin="549,10,0,0" Height="24" VerticalAlignment="Top" Click="AddRegistrationButton_Click"/>
 
     </Grid>
 </Window>

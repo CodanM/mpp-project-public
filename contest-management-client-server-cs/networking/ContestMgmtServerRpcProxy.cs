@@ -67,17 +67,18 @@ namespace networking
                 throw new ContestMgmtException(response.Data?.ToString());
         }
 
-        public IList<Competition> GetCompetitionsByString(string competitionType, string ageCategory)
+        public IList<string> GetCompetitionTypes(string competitionTypeStr)
         {
-            var stringTuple = (competitionType, ageCategory);
-            SendRequest(new Request {Type = RequestType.GetCompetitionsByString, Data = stringTuple});
+            SendRequest(new Request {Type = RequestType.GetCompetitionTypes, Data = competitionTypeStr});
 
             var response = ReadResponse();
             if (response?.Data == null)
                 throw new NullReferenceException();
-            var compDtos = (CompetitionDTO[]) response.Data;
-
-            return compDtos.Select(compDto => (Competition) compDto).ToList();
+            if (response.Type == ResponseType.Error)
+                throw new ContestMgmtException(response.Data?.ToString());
+            
+            var compDtos = (string[]) response.Data;
+            return compDtos.ToList();
         }
 
         public IList<Participant> GetParticipantsByCompetition(Competition competition)
@@ -88,22 +89,26 @@ namespace networking
             var response = ReadResponse();
             if (response?.Data == null)
                 throw new NullReferenceException();
+            if (response.Type == ResponseType.Error)
+                throw new ContestMgmtException(response.Data?.ToString());
+            
             var partDtos = (ParticipantDTO[]) response.Data;
-
             return partDtos.Select(partDto => (Participant) partDto).ToList();
         }
 
-        public IDictionary<long, (Competition, int)> GetCompetitionsAndCountsByString(string competitionType, 
-            string ageCategory)
+        public IDictionary<long, (Competition, int)> GetCompetitionsAndCounts(string competitionTypeStr,
+            string ageCategoryStr)
         {
-            var strings = (competitionType, ageCategory);
+            var strings = (competitionTypeStr, ageCategoryStr);
             SendRequest(new Request {Type = RequestType.GetCompetitionsAndCountsByString, Data = strings});
 
             var response = ReadResponse();
             if (response?.Data == null)
                 throw new NullReferenceException();
-            var ccDtos = (CompetitionCountDTO[]) response.Data;
+            if (response.Type == ResponseType.Error)
+                throw new ContestMgmtException(response.Data?.ToString());
             
+            var ccDtos = (CompetitionCountDTO[]) response.Data;
             return ccDtos.Select(ccDto => ((Competition, int)) ccDto).ToDictionary(t => t.Item1.Id);
         }
 
@@ -115,8 +120,10 @@ namespace networking
             var response = ReadResponse();
             if (response?.Data == null)
                 throw new NullReferenceException();
-            var ids = (long[]) response.Data;
+            if (response.Type == ResponseType.Error)
+                throw new ContestMgmtException(response.Data?.ToString());
             
+            var ids = (long[]) response.Data;
             return ids.ToList();
         }
 
@@ -128,14 +135,23 @@ namespace networking
             var response = ReadResponse();
             if (response?.Data == null)
                 throw new NullReferenceException();
-            var ageCategories = (string[]) response.Data;
+            if (response.Type == ResponseType.Error)
+                throw new ContestMgmtException(response.Data?.ToString());
             
+            var ageCategories = (string[]) response.Data;
             return ageCategories.ToList();
         }
 
         public void AddRegistration(Registration registration)
         {
-            throw new NotImplementedException();
+            var registrationDto = (RegistrationDTO) registration;
+            SendRequest(new Request {Type = RequestType.AddRegistration, Data = registrationDto});
+
+            var response = ReadResponse();
+            if (response == null)
+                throw new NullReferenceException();
+            if (response.Type == ResponseType.Error)
+                throw new ContestMgmtException(response.Data?.ToString());
         }
 
         private void Run()
@@ -235,7 +251,18 @@ namespace networking
         {
             if (response.Type == ResponseType.NewRegistration)
             {
-                
+                if (response.Data == null)
+                    throw new NullReferenceException();
+                var registrationDto = (RegistrationDTO) response.Data;
+                var registration = (Registration) registrationDto;
+                try
+                {
+                    _client!.NewRegistration(registration);
+                }
+                catch (ContestMgmtException e)
+                {
+                    Console.WriteLine(e.StackTrace);
+                }
             }
         }
     }

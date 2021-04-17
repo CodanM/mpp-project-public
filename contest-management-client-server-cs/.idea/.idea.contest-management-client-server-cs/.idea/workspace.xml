@@ -5,19 +5,110 @@
     <projectFile>server-console/server-console.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="da1d4fce-ef22-4263-8252-c96361dfb83f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/LoginWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/LoginWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.designer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.designer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.designer.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.designer.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/ParticipantDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/ParticipantDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/server-console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/server-console.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/server-console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/bin/Debug/net5.0/server-console.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/obj/Debug/net472/server-console.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/Debug/net472/server-console.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/services/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/contest-management-db" beforeDir="false" afterPath="$PROJECT_DIR$/../data/contest-management-db" afterDir="false" />
+=======
     <list default="true" id="822a812e-fc70-4b8c-ac33-285be6c235ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/riderModule.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest-management-client-server-cs.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.contest-management-client-server-cs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/LoginWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/LoginWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/client-wpf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/client-wpf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/client-wpf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/client-wpf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/ref/client-wpf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/ref/client-wpf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/bin/Debug/net5.0-windows/services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/controller/ContestMgmtClientController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/controller/ContestMgmtClientController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/LoginWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/client-wpf_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-wpf/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/networking/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/networking/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-console/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/ref/client-wpf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/client-wpf/obj/Debug/net5.0-windows/ref/client-wpf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Competition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/model/Competition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/model/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Organiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/model/Organiser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Participant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/model/Participant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/model/Registration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bin/Debug/net5.0/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/model/bin/Debug/net5.0/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bin/Debug/net5.0/model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/model/bin/Debug/net5.0/model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bin/Debug/net5.0/ref/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/model/bin/Debug/net5.0/ref/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/obj/Debug/net5.0/model.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/model/obj/Debug/net5.0/model.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/obj/Debug/net5.0/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/model/obj/Debug/net5.0/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/obj/Debug/net5.0/model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/model/obj/Debug/net5.0/model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/obj/Debug/net5.0/ref/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/model/obj/Debug/net5.0/ref/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/ContestMgmtServerRpcProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/ContestMgmtServerRpcProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/ref/networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/ref/networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/bin/Debug/net5.0/services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/networking/bin/Debug/net5.0/services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/CompetitionCountDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/CompetitionCountDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/CompetitionDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/CompetitionDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/DTOExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/OrganiserDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/OrganiserDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/ParticipantDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/ParticipantDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/ParticipantStringDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/ParticipantStringDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/dto/RegistrationDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/networking/dto/RegistrationDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/networking/obj/Debug/net5.0/networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/obj/Debug/net5.0/ref/networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/networking/obj/Debug/net5.0/ref/networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/ICompetitionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/ICompetitionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/ICrudRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/ICrudRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/IRegistrationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/IRegistrationRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/database/CompetitionDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/database/CompetitionDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/database/ParticipantDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/database/ParticipantDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/database/RegistrationDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/database/RegistrationDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/obj/Debug/net5.0/persistence.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/obj/Debug/net5.0/persistence.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/utils/DBUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/utils/DBUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/ContestMgmtServerImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/ContestMgmtServerImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/server-console/obj/Debug/net5.0/server-console.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/IContestMgmtServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/IContestMgmtServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/bin/Debug/net5.0/model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/services/bin/Debug/net5.0/model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/bin/Debug/net5.0/model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/services/bin/Debug/net5.0/model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/bin/Debug/net5.0/services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/services/bin/Debug/net5.0/services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/bin/Debug/net5.0/services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/services/bin/Debug/net5.0/services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/services/obj/Debug/net5.0/services.pdb" afterDir="false" />
+>>>>>>> parent of 44c1fec (first commit)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +127,28 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3CEE83F2-04AC-40EF-80C1-7C36C8FBE59A/169/UIElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/1B2/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3CEE83F2-04AC-40EF-80C1-7C36C8FBE59A/18C/UIElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/1D0/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/networking/ContestMgmtServerRpcProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4C8923A1-1DA6-49D5-A47F-4A9EE47AD2FC/8d/62b23f25/ButtonBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/233/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2525C71A-36E7-496A-A9B1-670B7E09957A/10/Stack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/1A1/ThreadPool.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/F8/ValueTuple.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/B2/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/1A2/ThreadPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3CEE83F2-04AC-40EF-80C1-7C36C8FBE59A/3E8/RouteItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3BB42FD3-8BD8-407B-9667-FBF8CE1367E9/B7/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3CEE83F2-04AC-40EF-80C1-7C36C8FBE59A/2BE/EventRoute.cs" root0="SKIP_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/networking/ContestMgmtServerRpcProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> parent of 44c1fec (first commit)
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -48,7 +159,6 @@
       <option value="$PROJECT_DIR$/persistence/ICompetitionRepository.cs" />
       <option value="$PROJECT_DIR$/model/Participant.cs" />
       <option value="$PROJECT_DIR$/persistence/IParticipantRepository.cs" />
-      <option value="$PROJECT_DIR$/persistence/database/ParticipantDbRepository.cs" />
       <option value="$PROJECT_DIR$/model/Competition.cs" />
       <option value="$PROJECT_DIR$/model/Organiser.cs" />
       <option value="$PROJECT_DIR$/model/Entity.cs" />
@@ -64,7 +174,6 @@
       <option value="$PROJECT_DIR$/client-wpf/MainWindow.xaml.cs" />
       <option value="$PROJECT_DIR$/client-wpf/LoginWindow.xaml.cs" />
       <option value="$PROJECT_DIR$/client-wpf/App.xaml.cs" />
-      <option value="$PROJECT_DIR$/client-wpf/controller/ContestMgmtClientController.cs" />
       <option value="$PROJECT_DIR$/model/Registration.cs" />
       <option value="$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs" />
       <option value="$PROJECT_DIR$/networking/ContestMgmtServerRpcProxy.cs" />
@@ -72,6 +181,9 @@
       <option value="$PROJECT_DIR$/persistence/utils/DBUtils.cs" />
       <option value="$PROJECT_DIR$/persistence/database/CompetitionDbRepository.cs" />
       <option value="$PROJECT_DIR$/services/IContestMgmtServices.cs" />
+      <option value="$PROJECT_DIR$/persistence/database/ParticipantDbRepository.cs" />
+      <option value="$PROJECT_DIR$/client-wpf/RegistrationWindow.xaml.cs" />
+      <option value="$PROJECT_DIR$/client-wpf/controller/ContestMgmtClientController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qsjPh0jmNIUYeTRZ6Zr44jSc6U" />
@@ -153,9 +265,20 @@
       <workItem from="1617915751664" duration="8654000" />
       <workItem from="1618154762057" duration="3986000" />
       <workItem from="1618329577295" duration="606000" />
-      <workItem from="1618332383476" duration="1153000" />
-      <workItem from="1618348362113" duration="615000" />
+<<<<<<< HEAD
+      <workItem from="1618611647286" duration="2223000" />
+      <workItem from="1618653114235" duration="2876000" />
+=======
+>>>>>>> parent of 44c1fec (first commit)
     </task>
+    <task id="LOCAL-00001" summary="finished c# client-server">
+      <created>1618657409705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618657409705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,5 +301,52 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="finished c# client-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished c# client-server" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/networking/ContestMgmtClientRpcWorker.cs</url>
+          <line>86</line>
+          <properties documentPath="C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\networking\ContestMgmtClientRpcWorker.cs" initialLine="86" containingFunctionPresentation="method 'NewRegistration'">
+            <startOffsets>
+              <option value="2400" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2489" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/client-wpf/controller/ContestMgmtClientController.cs</url>
+          <line>24</line>
+          <properties documentPath="C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\client-wpf\controller\ContestMgmtClientController.cs" initialLine="24" containingFunctionPresentation="method 'NewRegistration'">
+            <startOffsets>
+              <option value="624" />
+            </startOffsets>
+            <endOffsets>
+              <option value="678" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/client-wpf/controller/ContestMgmtClientController.cs</url>
+          <line>104</line>
+          <properties documentPath="C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\client-wpf\controller\ContestMgmtClientController.cs" initialLine="103" containingFunctionPresentation="method 'OnOrganiserEvent'">
+            <startOffsets>
+              <option value="3981" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4010" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

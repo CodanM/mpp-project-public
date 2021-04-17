@@ -1,7 +1,9 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace model
 {
+    [Serializable]
     public class Entity<TId>
     {
         public TId Id { get; set; } = default!;

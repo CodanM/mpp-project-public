@@ -1,0 +1,11 @@
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net472\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net472\services.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net472\model.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\bin\Debug\net472\model.pdb
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.csprojAssemblyReference.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.AssemblyInfoInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.AssemblyInfo.cs
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.csproj.CoreCompileInputs.cache
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.csproj.CopyComplete
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.dll
+C:\Users\danie\IdeaProjects\mpp-proiect-repository-CodanM\contest-management-client-server-cs\services\obj\Debug\net472\services.pdb

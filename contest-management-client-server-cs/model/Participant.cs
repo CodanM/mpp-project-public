@@ -1,5 +1,8 @@
-﻿namespace model
+﻿using System;
+
+namespace model
 {
+    [Serializable]
     public class Participant : Entity<long>
     {
         public string? FirstName { get; set; }

@@ -4,7 +4,7 @@
     "net5.0": {
       "model/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETFramework,Version=v4.8",
         "compile": {
           "bin/placeholder/model.dll": {}
         },
@@ -14,10 +14,7 @@
       },
       "services/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "model": "1.0.0"
-        },
+        "framework": ".NETFramework,Version=v4.8",
         "compile": {
           "bin/placeholder/services.dll": {}
         },
@@ -41,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "model >= 1.0.0",
       "services >= 1.0.0"
     ]
   },
@@ -71,6 +69,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj": {
+              "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj"
+            },
             "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\services\\services.csproj": {
               "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\services\\services.csproj"
             }

@@ -1,5 +1,4 @@
-﻿#nullable disable
-using System;
+﻿using System;
 using model;
 
 namespace networking.dto
@@ -9,11 +8,11 @@ namespace networking.dto
     {
         public long ParticipantId { get; set; }
 
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
         
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
         
-        public int Age { get; set; }
+        public int? Age { get; set; }
 
         public static explicit operator Participant(ParticipantDTO participantDto)
         {
@@ -33,7 +32,7 @@ namespace networking.dto
                 ParticipantId = participant.Id,
                 FirstName = participant.FirstName,
                 LastName = participant.LastName,
-                Age = (int) participant.Age!
+                Age = participant.Age
             };
         }
     }

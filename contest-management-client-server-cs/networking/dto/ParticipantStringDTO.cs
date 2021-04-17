@@ -9,11 +9,11 @@ namespace networking.dto
     {
         public long ParticipantId { get; set; }
 
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
-        public int Age { get; set; }
+        public int? Age { get; set; }
         
         public string CompetitionType { get; set; }
 
@@ -40,7 +40,7 @@ namespace networking.dto
                 ParticipantId = part.Id,
                 FirstName = part.FirstName,
                 LastName = part.LastName,
-                Age = (int) part.Age!,
+                Age = part.Age,
                 CompetitionType = compType
             };
         }

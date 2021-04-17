@@ -1,5 +1,8 @@
-﻿namespace model
+﻿using System;
+
+namespace model
 {
+    [Serializable]
     public class Organiser : Entity<string>
     {
         public string Username { get => Id; set => Id = value; }

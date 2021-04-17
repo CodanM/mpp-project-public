@@ -51,9 +51,9 @@ namespace server_console
             _loggedOrganisers.Remove(organiser.Username);
         }
 
-        public IList<Competition> GetCompetitionsByString(string competitionType, string ageCategory)
+        public IList<string> GetCompetitionTypes(string competitionTypeStr)
         {
-            throw new System.NotImplementedException();
+            return _competitionRepository.FindCompetitionTypes(competitionTypeStr).ToList();
         }
 
         public IList<Participant> GetParticipantsByCompetition(Competition competition)
@@ -61,9 +61,10 @@ namespace server_console
             return _participantRepository.FindParticipantsByCompetition(competition.Id).ToList();
         }
 
-        public IDictionary<long, (Competition, int)> GetCompetitionsAndCountsByString(string competitionType, string ageCategory)
+        public IDictionary<long, (Competition, int)> GetCompetitionsAndCounts(string competitionTypeStr,
+            string ageCategoryStr)
         {
-            return _competitionRepository.GetCompetitionsAndCountsByString(competitionType, ageCategory);
+            return _competitionRepository.GetCompetitionsAndCounts(competitionTypeStr, ageCategoryStr);
         }
 
         public IList<long> GetParticipantIdsByName(string firstName, string lastName)
@@ -73,7 +74,9 @@ namespace server_console
 
         public IList<string> GetAgeCategoriesForParticipant(Participant participant, string competitionType)
         {
-            var age = participant.Age;
+            var age = participant.Age ?? _participantRepository.Find(participant.Id)?.Age;
+            if (age == null)
+                throw new ContestMgmtException("Could not get participant age!");
             return _competitionRepository.FindAgeCategoriesFromCompetitionType(competitionType)
                 .Where(str =>
                 {
@@ -91,12 +94,14 @@ namespace server_console
             if (competition.CompetitionType == null || competition.AgeCategory == null)
                 throw new ContestMgmtException("CompetitionType and AgeCategory cannot be null!");
             
-            if (participant.Id == default)
+            if (participant.Id == 0)
                 _participantRepository.Add(participant);
 
             competition = _competitionRepository.FindByProps(competition.CompetitionType, competition.AgeCategory) ??
                           throw new ContestMgmtException("Competition not found!");
 
+            registration = new Registration(participant, competition);
+            
             var regs = _registrationRepository.FindByParticipant(participant.Id).ToArray();
             if (regs.Length >= 2)
                 throw new ContestMgmtException(

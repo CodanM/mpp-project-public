@@ -132,8 +132,8 @@ namespace persistence.database
             }
         }
 
-        public IDictionary<long, (Competition, int)> GetCompetitionsAndCountsByString(string competitionType,
-            string ageCategory)
+        public IDictionary<long, (Competition, int)> GetCompetitionsAndCounts(string competitionTypeStr,
+            string ageCategoryStr)
         {
             using var conn = DbUtils.GetConnection();
             conn.Open();
@@ -146,8 +146,8 @@ namespace persistence.database
                 competition_type like '%' || @competition_type || '%' and
                 age_category like '%' || @age_category || '%'
                 group by id, competition_id, competition_type, age_category";
-            cmd.AddParameterWithValue("@competition_type", competitionType);
-            cmd.AddParameterWithValue("@age_category", ageCategory);
+            cmd.AddParameterWithValue("@competition_type", competitionTypeStr);
+            cmd.AddParameterWithValue("@age_category", ageCategoryStr);
             try
             {
                 using var reader = cmd.ExecuteReader();
@@ -177,46 +177,40 @@ namespace persistence.database
             return new Dictionary<long, (Competition, int)>();
         }
 
-        public IEnumerable<Competition> FindCompetitionsByString(string competitionType, string ageCategory)
+        public IEnumerable<string> FindCompetitionTypes(string competitionTypeStr)
         {
             using var conn = DbUtils.GetConnection();
             conn.Open();
 
             using var cmd = conn.CreateCommand();
             cmd.CommandText =
-                @"select * from Competitions
+                @"select distinct competition_type from Competitions
                 where
-                competition_type like '%' || @competition_type || '%' and
-                age_category like '%' || @age_category || '%'";
-            cmd.AddParameterWithValue("@competition_type", competitionType);
-            cmd.AddParameterWithValue("@age_category", ageCategory);
+                competition_type like '%' || @competition_type || '%'";
+            cmd.AddParameterWithValue("@competition_type", competitionTypeStr);
             try
             {
                 using var reader = cmd.ExecuteReader();
-                var competitions = new List<Competition>();
+                var competitionTypes = new List<string>();
                 while (reader.Read())
                 {
-                    competitions.Add(new Competition
-                    {
-                        Id = reader.GetInt64(0),
-                        CompetitionType = reader.GetString(1),
-                        AgeCategory = reader.GetString(2)
-                    });
+                    competitionTypes.Add(reader.GetString(0));
                 }
 
-                return competitions;
+                return competitionTypes;
             }
             catch (SQLiteException e)
             {
                 Console.WriteLine("Error DB" + e);
             }
 
-            return new List<Competition>();
+            return new List<string>();
         }
 
         public IEnumerable<string> FindAgeCategoriesFromCompetitionType(string competitionType)
         {
             using var conn = DbUtils.GetConnection();
+            conn.Open();
 
             using var cmd = conn.CreateCommand();
             cmd.CommandText =

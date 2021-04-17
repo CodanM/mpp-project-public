@@ -5,11 +5,19 @@
         <TargetFramework>net5.0-windows</TargetFramework>
         <RootNamespace>client_wpf</RootNamespace>
         <UseWPF>true</UseWPF>
+        <LangVersion>9</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\model\model.csproj" />
       <ProjectReference Include="..\networking\networking.csproj" />
       <ProjectReference Include="..\services\services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net5.0-windows\LoginWindow.baml" />
+      <Content Include="obj\Debug\net5.0-windows\MainWindow.baml" />
+      <Content Include="obj\Debug\net5.0-windows\RegistrationWindow.baml" />
     </ItemGroup>
 
 </Project>

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 using client_wpf.controller;
 using model;
 using networking.dto;
@@ -16,15 +18,17 @@ namespace client_wpf
 
         private IList<Participant> _participants;
 
-        public delegate void UpdateDataGridCallback(DataGrid dataGrid, string competitionType, string ageCategory);
-        
         public MainWindow(ContestMgmtClientController controller)
         {
             InitializeComponent();
             _controller = controller;
-            _competitions = controller.GetCompetitionsAndCountsByString("", "");
-            CompetitionsDataGrid.DataContext = _competitions;
+            _competitions = controller.GetCompetitionsAndCounts();
+            Dispatcher.BeginInvoke(() => CompetitionsDataGrid.DataContext = _competitions);
+
+            controller.UpdateEvent += OrganiserUpdate;
         }
+
+        public delegate void UpdateRegistrationCountCallback(long id);
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -37,8 +41,8 @@ namespace client_wpf
         {
             var competitionType = CompetitionTypeTextBox.Text;
             var ageCategory = AgeCategoryTextBox.Text;
-            _competitions = _controller.GetCompetitionsAndCountsByString(competitionType, ageCategory);
-            CompetitionsDataGrid.ItemsSource = _competitions;
+            _competitions = _controller.GetCompetitionsAndCounts(competitionType, ageCategory);
+            Dispatcher.BeginInvoke(() => CompetitionsDataGrid.ItemsSource = _competitions);
         }
 
         private void CompetitionsDataGrid_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
@@ -46,13 +50,43 @@ namespace client_wpf
             if (CompetitionsDataGrid.SelectedCells.Count == 0)
             {
                 _participants = new List<Participant>();
-                ParticipantsDataGrid.ItemsSource = _participants;
+                Dispatcher.BeginInvoke(() => ParticipantsDataGrid.ItemsSource = _participants);
                 return;
             }
 
             var ccDto = (CompetitionCountDTO)CompetitionsDataGrid.SelectedCells[0].Item;
-            _participants = _controller.GetParticipantsByCompetition((((Competition, int)) ccDto).Item1);
-            ParticipantsDataGrid.ItemsSource = _participants;
+            var (comp, _) = ((Competition, int)) ccDto;
+            _participants = _controller.GetParticipantsByCompetition(comp);
+            Dispatcher.BeginInvoke(() => ParticipantsDataGrid.ItemsSource = _participants);
+        }
+
+        private void AddRegistrationButton_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new RegistrationWindow(_controller, this) {Title = "Add new registration"};
+            window.Show();
+        }
+        
+        private void OrganiserUpdate(object sender, ContestMgmtOrganiserEventArgs e)
+        {
+            if (e.OrganiserEventType == ContestMgmtOrganiserEvent.NewRegistration)
+            {
+                var id = ((Registration) e.Data).Competition.Id;
+                Console.WriteLine($"New Registration: Competition Id: {id}");
+                Dispatcher.BeginInvoke(new UpdateRegistrationCountCallback(UpdateRegistrationCount), id);
+            }
+        }
+        
+        private void UpdateRegistrationCount(long id)
+        {
+            var ccDto = _competitions.FirstOrDefault(cc => cc.CompetitionId == id);
+            if (ccDto == null)
+                return;
+            ccDto.Count++;
+            Dispatcher.BeginInvoke(() => 
+            {
+                CompetitionsDataGrid.ItemsSource = null;
+                CompetitionsDataGrid.ItemsSource = _competitions;
+            });
         }
     }
 }

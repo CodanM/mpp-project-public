@@ -5,10 +5,10 @@ namespace persistence
 {
     public interface ICompetitionRepository : ICrudRepository<long, Competition>
     {
-        IDictionary<long, (Competition, int)> GetCompetitionsAndCountsByString(string competitionType,
-            string ageCategory);
+        IDictionary<long, (Competition, int)> GetCompetitionsAndCounts(string competitionTypeStr = "",
+            string ageCategoryStr = "");
 
-        IEnumerable<Competition> FindCompetitionsByString(string competitionType, string ageCategory);
+        IEnumerable<string> FindCompetitionTypes(string competitionTypeStr = "");
 
         IEnumerable<string> FindAgeCategoriesFromCompetitionType(string competitionType);
 

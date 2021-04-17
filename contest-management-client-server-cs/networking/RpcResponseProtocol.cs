@@ -7,7 +7,7 @@ namespace networking
         Ok,
         Error,
         NewRegistration,
-        GetCompetitionsByString,
+        GetCompetitionTypes,
         GetParticipantsByCompetition,
         GetCompetitionsAndCountsByString,
         GetParticipantIdsByName,

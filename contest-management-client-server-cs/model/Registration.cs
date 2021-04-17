@@ -1,5 +1,8 @@
-﻿namespace model
+﻿using System;
+
+namespace model
 {
+    [Serializable]
     public class Registration : Entity<(long, long)>
     {
         private Participant _participant;

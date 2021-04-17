@@ -14,7 +14,7 @@ namespace networking
 {
     public class ContestMgmtClientRpcWorker : IContestMgmtObserver
     {
-        private IContestMgmtServices _server;
+        private readonly IContestMgmtServices _server;
         
         private readonly TcpClient _connection;
 
@@ -40,7 +40,7 @@ namespace networking
             }
         }
 
-        public virtual void Run()
+        public void Run()
         {
             while (_connected)
             {
@@ -80,7 +80,16 @@ namespace networking
         
         public void NewRegistration(Registration registration)
         {
-            throw new System.NotImplementedException();
+            var registrationDto = (RegistrationDTO) registration;
+            Console.WriteLine("New Registration " + registration);
+            try
+            {
+                SendResponse(new Response {Type = ResponseType.NewRegistration, Data = registrationDto});
+            }
+            catch (Exception e)
+            {
+                throw new ContestMgmtException("Error sending " + e);
+            }
         }
 
         private Response? HandleRequest(Request request)
@@ -157,24 +166,23 @@ namespace networking
             }
         }
 
-        private Response HandleGetCompetitionsByString(Request request)
+        private Response HandleGetCompetitionTypes(Request request)
         {
             if (request.Data == null)
                 throw new NullReferenceException();
-            var (competitionType, ageCategory) = ((string, string)) request.Data;
+            var competitionType = (string) request.Data;
             try
             {
-                CompetitionDTO[] comps;
+                string[] comps;
                 lock (_server)
                 {
-                    var res = _server.GetCompetitionsByString(competitionType, ageCategory);
-                    comps = (from comp in res 
-                            select (CompetitionDTO) comp).ToArray();
+                    var res = _server.GetCompetitionTypes(competitionType);
+                    comps = res.ToArray();
                 }
 
                 return new Response
                 {
-                    Type = ResponseType.GetCompetitionsByString,
+                    Type = ResponseType.GetCompetitionTypes,
                     Data = comps
                 };
             }
@@ -182,7 +190,6 @@ namespace networking
             {
                 return new Response {Type = ResponseType.Error, Data = e.Message};
             }
-            
         }
 
         private Response HandleGetParticipantsByCompetition(Request request)
@@ -223,7 +230,7 @@ namespace networking
                 CompetitionCountDTO[] res;
                 lock (_server)
                 {
-                    res = _server.GetCompetitionsAndCountsByString(competitionType, ageCategory).Values
+                    res = _server.GetCompetitionsAndCounts(competitionType, ageCategory).Values
                         .Select(t => (CompetitionCountDTO) t)
                         .ToArray();
                 }
@@ -295,7 +302,21 @@ namespace networking
         {
             if (request.Data == null)
                 throw new NullReferenceException();
-            throw new NotImplementedException();
+            var registrationDto = (RegistrationDTO) request.Data;
+            var registration = (Registration) registrationDto;
+            try
+            {
+                lock (_server)
+                {
+                    _server.AddRegistration(registration);
+                }
+
+                return new Response {Type = ResponseType.Ok};
+            }
+            catch (ContestMgmtException e)
+            {
+                return new Response {Type = ResponseType.Error, Data = e.Message};
+            }
         }
     }
 }

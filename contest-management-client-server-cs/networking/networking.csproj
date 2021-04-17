@@ -3,9 +3,11 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\model\model.csproj" />
       <ProjectReference Include="..\services\services.csproj" />
     </ItemGroup>
 

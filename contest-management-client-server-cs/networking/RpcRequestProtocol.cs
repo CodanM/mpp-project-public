@@ -6,7 +6,7 @@ namespace networking
     {
         Login,
         Logout,
-        GetCompetitionsByString,
+        GetCompetitionTypes,
         GetParticipantsByCompetition,
         GetCompetitionsAndCountsByString,
         GetParticipantIdsByName,

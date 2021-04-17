@@ -9,12 +9,12 @@ namespace services
 
         void Logout(Organiser organiser, IContestMgmtObserver client);
 
-        IList<Competition> GetCompetitionsByString(string competitionType, string ageCategory);
+        IList<string> GetCompetitionTypes(string competitionTypeStr = "");
 
         IList<Participant> GetParticipantsByCompetition(Competition competition);
 
-        IDictionary<long, (Competition, int)> GetCompetitionsAndCountsByString(string competitionType, 
-            string ageCategory);
+        IDictionary<long, (Competition, int)> GetCompetitionsAndCounts(string competitionTypeStr = "",
+            string ageCategoryStr = "");
 
         IList<long> GetParticipantIdsByName(string firstName, string lastName);
 

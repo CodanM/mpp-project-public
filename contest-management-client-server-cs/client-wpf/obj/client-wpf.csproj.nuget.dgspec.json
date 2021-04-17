@@ -28,6 +28,9 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
+              "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj": {
+                "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj"
+              },
               "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\networking\\networking.csproj": {
                 "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\networking\\networking.csproj"
               },
@@ -82,15 +85,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net48": {
+            "targetAlias": "net48",
             "projectReferences": {}
           }
         },
@@ -101,23 +104,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
+        "net48": {
+          "targetAlias": "net48",
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
@@ -146,6 +134,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj": {
+                "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj"
+              },
               "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\services\\services.csproj": {
                 "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\services\\services.csproj"
               }
@@ -194,15 +185,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net48": {
+            "targetAlias": "net48",
             "projectReferences": {
               "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj": {
                 "projectPath": "C:\\Users\\danie\\IdeaProjects\\mpp-proiect-repository-CodanM\\contest-management-client-server-cs\\model\\model.csproj"
@@ -217,23 +208,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
+        "net48": {
+          "targetAlias": "net48",
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }

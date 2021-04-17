@@ -1,0 +1,36 @@
+﻿<Window x:Class="client_wpf_remoting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:client_wpf_remoting"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight" Closing="Window_Closing">
+    <Grid>
+        <DataGrid x:Name="CompetitionsDataGrid" ItemsSource="{Binding}" AutoGenerateColumns="False" Height="234" VerticalAlignment="Top" Margin="10,70,0,10" HorizontalAlignment="Left" Width="339" SelectedCellsChanged="CompetitionsDataGrid_SelectedCellsChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding CompetitionId}" Width="30"/>
+                <DataGridTextColumn Header="Competition Type" Binding="{Binding CompetitionType}" Width="150"/>
+                <DataGridTextColumn Header="Age Category" Binding="{Binding AgeCategory}" Width="85"/>
+                <DataGridTextColumn Header="Count" Binding="{Binding Count}" Width="45"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="CompetitionTypeTextBox" HorizontalAlignment="Left" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Padding="3,3,3,3"/>
+        <Label Content="Competition Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox x:Name="AgeCategoryTextBox" HorizontalAlignment="Left" Margin="159,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Padding="3,3,3,3"/>
+        <Label Content="Age Category" HorizontalAlignment="Left" Margin="159,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Margin="292,41,0,0" VerticalAlignment="Top" Height="24" Width="57" Click="SearchButton_Click"/>
+
+        <DataGrid x:Name="ParticipantsDataGrid" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="363,70,10,0" Height="234" VerticalAlignment="Top" HorizontalAlignment="Left" Width="278">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="30"/>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="100"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="100"/>
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" Width="35"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Participants" HorizontalAlignment="Left" Margin="363,39,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AddRegistrationButton" Content="Add Registration" HorizontalAlignment="Left" Margin="549,10,0,0" Height="24" VerticalAlignment="Top" Click="AddRegistrationButton_Click"/>
+
+    </Grid>
+</Window>

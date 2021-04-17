@@ -1,9 +1,11 @@
 ﻿#nullable enable
 using System;
+using System.Runtime.Serialization;
 
 namespace services
 {
-    public class ContestMgmtException : Exception
+    [Serializable]
+    public class ContestMgmtException : ApplicationException
     {
         public ContestMgmtException()
         {
@@ -14,6 +16,10 @@ namespace services
         }
 
         public ContestMgmtException(string? message, Exception? innerException) : base(message, innerException)
+        {
+        }
+
+        protected ContestMgmtException(SerializationInfo info, StreamingContext context) : base(info, context)
         {
         }
     }

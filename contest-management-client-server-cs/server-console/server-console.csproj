@@ -4,9 +4,11 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>server_console</RootNamespace>
+        <LangVersion>9</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\model\model.csproj" />
       <ProjectReference Include="..\networking\networking.csproj" />
       <ProjectReference Include="..\persistence\persistence.csproj" />
       <ProjectReference Include="..\services\services.csproj" />
